@@ -6,8 +6,8 @@ int main() {
     scanf("%d", &num);
 
     // Output statements
-    printf("Hexadecimal: %x\n", num);  // %x is the format specifier for hexadecimal
-    printf("Octal: %o\n", num);        // %o is the format specifier for octal
+    printf("Hexadecimal: %X\n", num);  
+    printf("Octal: %o\n", num);       
 
     return 0;
 }
