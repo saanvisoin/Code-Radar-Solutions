@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main() {
     int age, citizen_status;
@@ -9,6 +9,6 @@ int main() {
     } else {
         printf("Not Eligible\n");
     }
-    
-return 0;
+
+    return 0;
 }
