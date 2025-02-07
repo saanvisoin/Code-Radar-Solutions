@@ -12,12 +12,12 @@ int main() {
     if (isalpha(ch)) {
         // Check if the character is a vowel
         if (lowerCh == 'a' || lowerCh == 'e' || lowerCh == 'i' || lowerCh == 'o' || lowerCh == 'u') {
-            printf("%c Vowel.\n", ch);
+            printf("Vowel\n");
         } else {
-            printf("%c Consonant.\n", ch);
+            printf("Consonant\n");
         }
     } else {
-        printf("%c Special Character.\n", ch);
+        printf("Special Character\n");
     }
 
     return 0;
