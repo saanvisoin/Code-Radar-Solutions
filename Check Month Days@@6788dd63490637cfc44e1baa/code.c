@@ -2,14 +2,10 @@
 
 int main() {
     int month;
-    
-    // Taking input
     if (scanf("%d", &month) != 1) {
         printf("Invalid month\n");
         return 1;
     }
-
-    // Checking the number of days in the given month
     switch (month) {
         case 1: case 3: case 5: case 7: case 8: case 10: case 12:
             printf("31\n");
