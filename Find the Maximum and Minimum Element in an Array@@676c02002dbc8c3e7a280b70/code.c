@@ -19,8 +19,8 @@ int main() {
             min = arr[i];
     }
 
-    printf("Maximum: %d\n", max);
-    printf("Minimum: %d\n", min);
+    printf("%d\n", max);
+    printf(" %d", min);
 
     return 0;
 }
