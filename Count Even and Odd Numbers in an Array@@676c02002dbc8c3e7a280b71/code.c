@@ -12,12 +12,12 @@ int main(){
     }
     printf("%d",count);
 
-    for(int i=0;i<n;i++){
-        if(arr[i%2!=0]){
-            sum++;
-        }
-    }
-    printf("%d",sum);
+    // for(int i=0;i<n;i++){
+    //     if(arr[i%2!=0]){
+    //         sum++;
+    //     }
+    // }
+    // printf("%d",sum);
     return 0;
 
 }
